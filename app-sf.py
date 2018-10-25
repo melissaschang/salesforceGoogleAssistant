@@ -8,6 +8,9 @@ from os.path import isfile,join
 
 app = Flask(__name__) #start object of Flask class and assign to variable "app"
 
+
+#Encryptor credit: https://www.youtube.com/watch?v=UB2VX4vNUa0 
+
 class Encryptor: #create class 'Encryptor' to create function to encrypt password file
 
     def __init__(self, key): #constructor that passes key as argument, which is a string used to encrypt or decrypt data
