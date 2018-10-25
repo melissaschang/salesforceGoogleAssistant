@@ -1,12 +1,3 @@
-'''Melissa Chang
-Trend Micro
-Business Applications Intern
-7-02-18
-Salesforce Assistant APP
-
-Welcome to my salesforce APP, please read the grey comments marked with a '#' to follow along the code.
-'''
-
 import json, os, sys, logging, requests, beatbox, os.path, time #import necessary modules, use pip to install: simple-salesforce, beatbox, pycryptodome, flask. and requests
 from simple_salesforce import Salesforce, SFType
 from flask import request, Flask, make_response
